@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<librerias>
+    <libreria>Los Garcas</libreria>
+        <libro>
+            <titulo>El Señor de los Anillos</titulo>
+            <fecha>12/03/1980</fecha>
+            <precio>30€</precio>
+        </libro>
+        <libro>
+            <nombre>Los Garcas</nombre>
+            <titulo>El Señor de los Anillos</titulo>
+            <fecha>12/03/1980</fecha>
+            <precio>30€</precio>
+        </libro>
+        <libro>
+            <nombre>Los Garcas</nombre>
+            <titulo>El Señor de los Anillos</titulo>
+            <fecha>12/03/1980</fecha>
+            <precio>30€</precio>
+        </libro>
+    </libreria>
+    <libreria>Los Garcas</libreria>
+        <libro>
+            <titulo>El Señor de los Anillos</titulo>
+            <fecha>12/03/1980</fecha>
+            <precio>30€</precio>
+        </libro>
+        <libro>
+            <nombre>Los Garcas</nombre>
+            <titulo>El Señor de los Anillos</titulo>
+            <fecha>12/03/1980</fecha>
+            <precio>30€</precio>
+        </libro>
+        <libro>
+            <nombre>Los Garcas</nombre>
+            <titulo>El Señor de los Anillos</titulo>
+            <fecha>12/03/1980</fecha>
+            <precio>30€</precio>
+        </libro>
+    </libreria>
+    <libreria>Los Garcas</libreria>
+        <libro>
+            <titulo>El Señor de los Anillos</titulo>
+            <fecha>12/03/1980</fecha>
+            <precio>30€</precio>
+        </libro>
+        <libro>
+            <nombre>Los Garcas</nombre>
+            <titulo>El Señor de los Anillos</titulo>
+            <fecha>12/03/1980</fecha>
+            <precio>30€</precio>
+        </libro>
+        <libro>
+            <nombre>Los Garcas</nombre>
+            <titulo>El Señor de los Anillos</titulo>
+            <fecha>12/03/1980</fecha>
+            <precio>30€</precio>
+        </libro>
+    </libreria>
+</librerias>

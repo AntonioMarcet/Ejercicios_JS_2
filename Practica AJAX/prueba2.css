@@ -1,0 +1,41 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#formulario
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 200px;
+    background-color: darkgoldenrod;
+}
+
+#nombre, #pass, #aceptar, #agregar
+{
+    margin: 10px;
+}
+
+#aceptar, #agregar
+{
+    border: 1px solid red;
+    border-radius: 5px;
+    width: 50%;
+}
+
+
+
