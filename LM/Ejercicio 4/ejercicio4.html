@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+    <link type="text/css" rel="stylesheet" href="ejercicio4.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Formulario registro</h2>
+        <form id="form">
+            <div class="form-input"><label for="">Usuario:<span> *</span></label><input type="text" id="nick-name"
+                    autocomplete="username"></div>
+            <div class="form-input"><label for="">Contraseña:<span> *</span></label><input type="password" name=""
+                    id="pass" autocomplete="new-password" maxlength="8"></div>
+            <div class="form-input"><label for="">Repita la Contraseña:<span> * &nbsp;</span></label><input
+                    type="password" name="" id="pass2" autocomplete="new-password" maxlength="8"></div>
+            <div class="form-input"> <label for="">Email:<span> *</span></label><input type="email" name="" id="email">
+            </div>
+            <div class="form-input"><label for="">Nombre:<span> *</span></label><input type="text" id="name-user"></div>
+            <div class="form-input"><label for="">Apellidos:<span> *</span></label><input type="text" id="surname">
+            </div>
+            <div class="form-input"><label for="">Edad:<span> *</span></label><input type="number" name="" id="age">
+            </div>
+            <div class="form-input"><label for="">Teléfono:<span> *</span></label><input type="tel" name="" id="phone">
+            </div>
+            <div class="submit-input"><input type="submit" value="Registrarse" class="disable btn-submit">
+            </div>
+        </form>
+        <div class="alert">
+            <p class="messageAlert"></p>
+        </div>
+
+    </div>
+    <script src="ejercicio4.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 25%;
+    border: 5px solid #79c1da;
+    border-radius: 20px;
+    padding: 15px;
+    background-image: linear-gradient(to right, rgb(191, 169, 202), rgb(150, 192, 169));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#email,
+#pass {
+    width: 55%;
+    margin: 15px 0;
+    background-color: rgb(212, 198, 208);
+}
+
+#email {
+    margin-left: 50px;
+}
+
+#pass {
+    margin-left: 11px;
+}
+
+#btn {
+    width: 60px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#email:valid,
+#pass:valid {
+    background-color: rgba(192, 192, 192, 0.89);
+    box-shadow: 5px 5px 5px #494949;
+}
+
+#email:focus:invalid,
+#pass:focus:invalid {
+    background-color: rgb(253, 157, 157);
+    box-shadow: -5px -5px 5px #990606;
+}
+
+input::placeholder {
+    padding: 10px;
+}

@@ -1,0 +1,22 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+.contenedor
+{
+    margin-top: 50px;
+    margin-left: 400px;
+    height: 600px;
+    width: 800px;
+    background-color: #C3F6F9;
+}
+
+p
+{
+    padding-left: "50px";
+    width: "200px";
+    background-color :"yellow";
+    height: "50px";
+}

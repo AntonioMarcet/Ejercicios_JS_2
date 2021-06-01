@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="ejercicio3.css">
+    <title>Ejercicio 3</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <form action="">
+            <label>Ingrese su email:<input id="email"
+                    pattern="[\w\d\]+@iesdoctorbalmis\.com"
+                    title="El email solo puede ser del dominio iesdoctorbalmis.com y un max. de 20 caracteres"
+                    required></label>
+
+            <label>Ingrese su contraseña:<input type="password" id="pass" pattern="[0-9]{8}" alt="number"
+                    autocomplete="password" title="La contraseña solo acepta 8 números" required></label>
+
+            <input type="submit" value="Enviar" id="btn">
+
+        </form>
+    </div>
+</body>
+
+</html>
